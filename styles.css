@@ -1,0 +1,76 @@
+body {
+    background-color: #7aaa79;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    transition: 0.4s ease-in-out;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+}
+
+.header {
+    padding-bottom: 15px;
+}
+
+#toggle {
+    border: 1px;
+    background: lightblue;
+    cursor: pointer;
+}
+
+#toggle2 {
+    border: 1px;
+    background: lightpink;
+    cursor: pointer;
+}
+
+#toggle3 {
+    border: 1px;
+    background: lightgoldenrodyellow;
+    cursor: pointer;
+}
+
+button {
+    width: 300px;
+    height: 60px;
+}
+
+#toggle3:hover, #toggle2:hover, #toggle:hover{
+    background-image: linear-gradient(rgb(0 0 0/40%) 0 0);
+}
+
+h1 {
+    font-size: 100px;
+    margin: 0;
+}
+
+p {
+    font-size: 20px; 
+}
+
+.footer {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    bottom: 0;
+}
+
+.dark-theme {
+    background-color: #9583a7;
+    transition: 0.4s ease-in-out;
+}
+
+.light-theme {
+    background-color: rgb(201, 98, 115);
+    transition: 0.4s ease-in-out;
+}
+
+.idk-theme {
+    background-color: rgb(59, 29, 34);
+    transition: 0.4s ease-in-out;
+}
